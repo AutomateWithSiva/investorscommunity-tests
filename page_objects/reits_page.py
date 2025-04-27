@@ -14,3 +14,5 @@ class ReitsPage(BasePage):
 
     def is_reits_header_visible(self):
         return self.is_visible(self.REITS_PAGE_HEADER)
+
+    #TODO
