@@ -8,13 +8,3 @@ class ReadConfig:
     def get_app_url():
         url = config.get('common_info', 'base_url')
         return url
-
-    @staticmethod
-    def get_email():
-        email = config.get('common_info', 'email')
-        return email
-
-    @staticmethod
-    def get_password():
-        password = config.get('common_info', 'password')
-        return password

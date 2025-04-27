@@ -1,2 +1,25 @@
-# selenium-pytest-hybrid
-A scalable Hybrid Test Automation Framework using Selenium and Pytest. Supports modular, data-driven, and keyword-driven testing with Page Object Model, detailed reports, and CI/CD integration. Built for maintainable and efficient UI automation.
+## 🛠️ Installation
+
+### Prerequisites
+- Python 3.13+
+- Chrome/Firefox browser
+- Compatible WebDriver (e.g., ChromeDriver)
+
+### Steps
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/smartsiva/investorscommunity-tests.git
+   cd investorscommunity-tests
+   ```
+
+2. **Create a Virtual Environment with Python 3.13 and activate**
+    ```bash
+    python3 -m venv .env
+    source .env/bin/activate
+    ```
+
+3. **Install Required Packages**
+    ```bash
+    pip install -r requirements.txt
+    ```
